@@ -7,8 +7,8 @@ import { GifsSideMenuOptionsComponent } from '../../components/gifs-side-menu-op
   selector: 'app-dashboard-page',
   imports: [
     RouterOutlet,
-    GifsSideMenuHeaderComponent,
     GifsSideMenuOptionsComponent,
+    GifsSideMenuHeaderComponent,
   ],
   templateUrl: './dashboard-page.component.html',
 })
