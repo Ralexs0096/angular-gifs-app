@@ -56,4 +56,8 @@ export class GifService {
         })
       );
   }
+
+  getHistoryGifs(queryKey: string) {
+    return this.searchHistory()[queryKey] ?? [];
+  }
 }
